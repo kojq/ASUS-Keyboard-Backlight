@@ -14,7 +14,7 @@ Disrespect is not tolerated. Feel free to [join the Discord server](https://disc
 Run following command.
 
 ```
-sh <(curl https://raw.githubusercontent.com/kojq/asus-keyboard-backlight/main/install)
+sudo sh < <(curl https://raw.githubusercontent.com/kojq/asus-keyboard-backlight/main/install)
 ```
 
 ## Features
