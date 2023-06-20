@@ -4,8 +4,8 @@ After=suspend.target sleep.target hibernate.target hybrid-sleep.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/restore_kbd_backlight.sh save
-ExecStop=/usr/bin/restore_kbd_backlight.sh restore
+ExecStart=sh -c "cp /sys/class/leds/asus::kbd_backlight/brightness /etc/keyboard/brightness"
+ExecStop=sh -c "cp /etc/keyboard/brightness /sys/class/leds/asus::kbd_backlight/brightness"
 
 [Install]
 WantedBy=suspend.target sleep.target hibernate.target hybrid-sleep.target
