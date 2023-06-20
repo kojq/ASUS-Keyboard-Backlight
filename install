@@ -1,0 +1,4 @@
+curl -o /usr/bin/restore_kbd_backlight.sh https://raw.githubusercontent.com/kojq/asus-keyboard-backlight/main/restore_kbd_backlight.sh
+curl -o /etc/systemd/system/restore_kbd_backlight.service https://raw.githubusercontent.com/kojq/asus-keyboard-backlight/main/restore_kbd_backlight.service
+chmod +x /usr/bin/restore_kbd_backlight.sh
+systemctl enable --now restore_kbd_backlight
