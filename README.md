@@ -11,10 +11,13 @@ Disrespect is not tolerated. Feel free to [join the Discord server](https://disc
 
 ## Usage
 
-Run following command.
+Run following commands.
 
 ```
-sudo sh < <(curl https://raw.githubusercontent.com/kojq/asus-keyboard-backlight/main/install)
+sudo curl -o /etc/systemd/system/restore_kbd_backlight.service https://raw.githubusercontent.com/kojq/asus-keyboard-backlight/main/restore_kbd_backlight.service
+```
+```
+sudo systemctl enable --now restore_kbd_backlight
 ```
 
 ## Features
