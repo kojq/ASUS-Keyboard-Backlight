@@ -22,4 +22,4 @@ sudo systemctl enable --now akb
 
 ## Features
 
-- Restore ASUS keyboard backlight with a systemd service
+- Restore ASUS keyboard backlight brightness with a systemd service
