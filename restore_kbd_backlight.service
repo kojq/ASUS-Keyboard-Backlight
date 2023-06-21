@@ -4,8 +4,8 @@ After=suspend.target
 
 [Service]
 Type=oneshot
-ExecStart=cp /sys/class/leds/asus::kbd_backlight/brightness /etc/keyboard/brightness
-ExecStop=cp /etc/keyboard/brightness /sys/class/leds/asus::kbd_backlight/brightness
+ExecStart=cp /sys/class/leds/asus::kbd_backlight/brightness /var/lib/misc/kbd_brightness
+ExecStop=cp /var/lib/misc/kbd_brightness /sys/class/leds/asus::kbd_backlight/brightness
 
 [Install]
 WantedBy=suspend.target
