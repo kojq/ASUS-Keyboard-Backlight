@@ -1,5 +1,5 @@
 [Unit]
-Description=Restore Keyboard Backlight
+Description=Restore ASUS Keyboard Backlight Brightness
 After=suspend.target
 
 [Service]
