@@ -1,6 +1,6 @@
 <div align=center>
 
-  # asus-keyboard-backlight
+  # Restore ASUS Keyboard Backlight Brightness
 
   This file is intended to be accessible, practical, consistent, and comprehensive. Please reach out for suggestions.
 </div>
