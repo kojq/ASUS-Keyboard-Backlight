@@ -22,4 +22,6 @@ sudo systemctl enable --now akb
 
 ## Features
 
-- Restore ASUS keyboard backlight brightness with a systemd service
+- Restore ASUS keyboard backlight brightness from suspend with a systemd service
+- Only suspend-to-RAM is considered via `suspend.target`
+  - Add `hibernate.target` or `hybrid-sleep.target` to trigger for those scenarios
