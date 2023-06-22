@@ -35,3 +35,11 @@ sudo systemctl enable --now akb
 ## Build
 
 There are no build instructions.
+
+## Attribution
+
+The SVG logo was designed to be an exact copy of the PNG obtained from the [ASUS](https://asus.com) website.
+
+> ASUS Trademark is either a US registered trademark or trademark of ASUSTeK Computer Inc. in the United States and/or other countries
+
+> Reference to any ASUS products, services, processes, or other information and/or use of ASUS Trademarks does not constitute or imply endorsement, sponsorship, or recommendation thereof by ASUS.
