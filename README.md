@@ -36,7 +36,7 @@ sudo systemctl enable --now akb
 
 There are no build instructions.
 
-## Attribution
+## Graphics Attribution
 
 The SVG logo was designed to be an exact copy of the PNG obtained from the [ASUS](https://asus.com) website.
 
