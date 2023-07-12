@@ -26,12 +26,6 @@ sudo systemctl enable --now akb
 - Only suspend-to-RAM is considered via `suspend.target`
   - Add `hibernate.target` or `hybrid-sleep.target` to trigger for those scenarios
 
-## Activity
-
-- [x] Development (mostly commits)
-- [ ] Maintenance (mostly issues and requests)
-- [ ] Archived (no updates such as for security)
-
 ## Build
 
 There are no build instructions.
