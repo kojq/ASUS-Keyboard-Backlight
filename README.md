@@ -15,10 +15,10 @@ Disrespect is not tolerated. Feel free to [join the Discord server](https://disc
 Run following commands.
 
 ```
-sudo curl -o /etc/systemd/system/akb.service https://raw.githubusercontent.com/kojq/ASUS-Keyboard-Backlight/main/akb.service
+curl -o /etc/systemd/system/akb.service https://raw.githubusercontent.com/kojq/ASUS-Keyboard-Backlight/main/akb.service
 ```
 ```
-sudo systemctl enable --now akb
+systemctl enable --now akb
 ```
 
 ## Features
